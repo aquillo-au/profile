@@ -58,17 +58,17 @@ h2 {
 
 .glowly_links >li > a {
   text-decoration: none;
-  transition: color 5s ease-out;
+  transition: color 0.2s ease-out;
 }
 
 .glowly_links >li >a:visited {
   color: inherit;
-  transition: color 1s ease-out;
+  transition: color 0.2s ease-out;
 }
 
 .glowly_links >li >a:hover{
   color: chocolate;
-  transition: color 1s ease-out;
+  transition: color 0.2s ease-out;
 }
 
 @media (max-width: 960px) {
