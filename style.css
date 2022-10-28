@@ -5,20 +5,20 @@ body {
   font-size: 30;
   line-height: 1.5;
 }
+
 #me {
   border-radius: 33%;
 }
 
-
 .container {
   text-align: center;
   padding: 30px;
-
-
 }
+
 img {
   border-radius: 10%;
 }
+
 button {
   height:10%;
   border-radius: 50%;
@@ -27,6 +27,7 @@ button {
   color: rgb(24, 42, 9);
   box-shadow: 0 5px 20px rgba(0,0,0,.1);
 }
+
 .card {
   background-color: rgba(225, 203, 177, 0.435);
   padding: 10px;
@@ -35,28 +36,41 @@ button {
   border-radius: 7px;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
+
 .pets {
   font-size: 35;
 }
+
 h1 {
   color:rgba(137, 43, 226, 0.8)
 }
+
 h2 {
   color:rgb(50, 43, 170);
   font-size: 20;
 }
-.glowly_links {
-  display: inline;
+
+.glowly_links >li {
+  display: inline-block;
   font-size: 30;
   padding: 10px;
 }
-.glowly_links > a {
+
+.glowly_links >li > a {
   text-decoration: none;
+  transition: color 5s ease-out;
 }
 
-.glowly_links >a > i:hover{
-  color: chocolate;
+.glowly_links >li >a:visited {
+  color: inherit;
+  transition: color 1s ease-out;
 }
+
+.glowly_links >li >a:hover{
+  color: chocolate;
+  transition: color 1s ease-out;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
